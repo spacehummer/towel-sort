@@ -1,0 +1,37 @@
+
+> rsapp-task-template@1.0.0 test
+> mocha test
+
+Source 2-D Array to log: [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ]
+[
+  1, 2, 3, 6, 5,
+  4, 7, 8, 9
+]
+
+
+  .towelSort, should perfrom 'towelSort'
+Source 2-D Array to log: undefined
+    ✔ Should return empty array if no params passed
+Source 2-D Array to log: []
+    ✔ Should return empty array if matrix is empty
+Source 2-D Array to log: [ [ 1, 2 ], [ 3, 4 ] ]
+    ✔ should do towelSort
+Source 2-D Array to log: [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ]
+    ✔ should do towelSort
+Source 2-D Array to log: [
+  [ 1, 2, 3, 4 ],
+  [ 5, 6, 7, 8 ],
+  [ 9, 10, 11, 12 ],
+  [ 13, 14, 15, 16 ]
+]
+    ✔ should do towelSort
+Source 2-D Array to log: [ [ 1, 2, 3, 4 ], [ 5, 6, 7, 8 ], [ 9, 10, 11, 12 ] ]
+    ✔ should do towelSort correctrly with nonsquare matrix
+Source 2-D Array to log: [ [ 1, 2, 3 ], [ 4, 5, 6 ] ]
+    ✔ should do towelSort
+Source 2-D Array to log: [ [ 1, 2, 4 ], [ 5, 6, 7, 8 ], [ 9, 12 ] ]
+    ✔ should do towelSort
+
+
+  8 passing (8ms)
+
